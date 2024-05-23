@@ -10,15 +10,13 @@
 <header>
     <nav>
         <a href="index.php" class="lien-icone">
-            <img src="img/icon_code.png" alt="Logo MarieNICOLAS">
+            <img src="img/icon/icon_code.png" alt="Logo MarieNICOLAS">
         </a>
         <div>
             <a href="../../index.php">Accueil</a>
-            <a href="#mes_projets">Mes projets</a>
-            <a href="#parcours">Parcours professionnel</a>
-            <a href="#experience">Experiences professionnelles</a>
-            <a href="#competences">Compétences</a>
-            <a href="#veille_technologique">Veille Technologique</a>
+            <a href="../pages/php/a_propos.php">A propos</a>
+            <a href="../projets/projets.php">Projets</a>
+            <a href="../php/veille_tech.php">Veille Technologique</a>
         </div>
     </nav>
 </header>
