@@ -88,7 +88,7 @@
                         </a>
                     </ul>
                     <div class="article-info">
-                        <p class="article-name">Alternance - ActivBrowers</p>
+                        <p class="article-name"><a href="#activbrowers">Alternance - ActivBrowers</a></p>
                         <p class="article-work">TMA - Développement Web</p>
                     </div>
                 </li>
@@ -101,7 +101,7 @@
                         </a>
                     </ul>
                     <div class="article-info">
-                        <p class="article-name">Stage - Easy Réunion</p>
+                        <p class="article-name"><a href="#easyreunion">Stage - Easy Réunion</a></p>
                         <p class="article-work">Développement Web</p>
                     </div>
                 </li>
@@ -178,7 +178,7 @@
     <section class="details-pro">
         <!-- ALTERNANCE -->
         <section class="alternance">
-            <h4>ActivBrowers</h4>
+            <h4 id="activbrowers">ActivBrowers</h4>
             <div class="introduction-entreprise">
                 <p>
                     ActivBrowsers, une filiale d’AxivIT, est une agence spécialisée dans la transformation digitale et les solutions IT. Elle accompagne les entreprises dans le développement de sites web, d’applications mobiles, et dans l’optimisation de leur présence digitale. Forts d’une expertise en technologies telles que Drupal, WordPress, Magento, Prestashop, Vue.js, et Node.js, les consultants d’ActivBrowsers apportent un soutien technique complet et personnalisé pour assurer le succès des projets clients.
@@ -188,12 +188,12 @@
                 </p>
             </div>
             <div>
-                <h2>Projet: Plugin Wordpress</h2>
+                <h4>Projet: Plugin Wordpress</h4>
                 <p>Au cours de mon alternance, j'ai travaillé en peer-programming au développement d'un plugin Wordpress. <br>
                 Celui-ci permet d'effectuer l'évolution et la migration de la base de données Wordpress. 
                 Il permet une montée de version du site et des  .</p>
 
-                <h3>Stack utilisé</h3>
+                <h4>Stack utilisé</h4>
                 <ul>
                     <li>IDE: VS Code</li>
                     <li>Serveur web: Xampp</li>
@@ -205,7 +205,7 @@
                         <li>Travail collaboratif: Github</li>
                     </li>
                 </ul>
-                <h3>Réalisation</h3>
+                <h4>Réalisation</h4>
                 <p><a href="ressources/roadmaps.png">Roadmaps du projet</a></p>
                 
             </div>
@@ -213,7 +213,7 @@
 
         <!-- STAGE -->
         <section class="stage">
-            <h3>Easy Réunion</h3>
+            <h4 id="easyreunion">Easy Réunion</h4>
 
         </section>
     </section>
@@ -225,19 +225,19 @@
     <section class="projets">
         <!-- GBS GESTION RAPPORT  -->
         <div>
-            <h3>GSB - Gestion de rapport de visites - Atelier Professionnel</h3>
+            <h4>GSB - Gestion de rapport de visites - Atelier Professionnel</h4>
             <p>Application Web - PHP/HTML/CSS/MYSQL</p>
             <p><a href="">Plus de détails</a></p>
         </div>
         <!-- GBS LOCATION APPARTEMENT -->
         <div>
-            <h3>GSB - Location d'appartements</h3>
+            <h4>GSB - Location d'appartements</h4>
             <p>Application bureau - C#</p>
             <p><a href="">Plus de détails</a></p>
         </div>
         <!-- PLUGIN WORDPRESS -->
         <div>
-            <h3>Plugin Wordpress - Alternance</h3>
+            <h4>Plugin Wordpress - Alternance</h4>
             <p>Développement d'un plugin de migration de version d'un site Wordpress</p>
             <p><a href="">Plus de détails</a></p>
         </div>
