@@ -382,7 +382,9 @@
         <!-- STAGE -->
         <section class="stage">
             <h4 id="easyreunion"><a href="#" id="show-more">Easy Réunion</a></h4>
-            <div class="details" id="details"></div>
+            <div class="details" id="details">
+                <a href="https://github.com/MarieNICOLAS/easyreunion">Lien GitHub</a>
+            </div>
 
         </section>
     </section>
@@ -391,13 +393,116 @@
     <hr>
     <!-- PROJETS -->
     <h2 id="projets">Projets</h2>
+    <h2 id="projets">Projets</h2>
     <section class="projets">
-        <!-- GBS GESTION RAPPORT  -->
-        <div>
-            <h4>GSB - Gestion de rapport de visites - Atelier Professionnel</h4>
-            <p>Application Web - PHP/HTML/CSS/MYSQL</p>
-            <p><a href="">Plus de détails</a></p>
+        <h4 id="projet-gsb"><a href="#" id="show-more">GSB - Gestion de rapport de visites | Atelier Professionnel</a></h4>
+        <div class="details" id="details">
+            <p>Author: Marie NICOLAS / Romain BOURDON</p>
+            <a href="https://github.com/MarieNICOLAS/GSB">Lien GitHub du code source</a>
+            <p><a href="ressources/Projet_scolaire">Document Donné</a></p>
+            <p><a href="ressources/Projet_scolaire/E5_GSB1-Marie-NICOLAS2.pdf">E5 - Fiche Synthèse GSB1</a></p>
+            
+            <h4>Contexte</h4>
+                <p>
+                    Le projet de Gestion des Médecins et Visiteurs est une application web développée en PHP, conçue pour faciliter la
+                    gestion et l'interaction entre les professionnels de santé (médecins) et les visiteurs (généralement des représentants
+                    commerciaux). <br>
+                    L'application offre une interface intuitive permettant aux utilisateurs de s'inscrire, de rechercher des
+                    médecins, de consulter et de modifier des informations, et de gérer des rapports de visite. <br>
+                </p>
+            <h4><strong>Fonctionnalités essentielles</strong></h4>
+                <strong>Gestion des Médecins</strong>
+                <ul>
+                    <li>Inscription : Enregistrement de nouveaux médecins avec leurs informations professionnelles.</li>
+                    <li>Affichage et modification : Consultation des détails des médecins et mise à jour de leurs informations.</li>
+                    <li>Recherche Dynamique : Recherche de médecins par leur nom.</li>
+                </ul>
+
+                <strong>Gestion des Visiteurs</strong>
+                    <ul>
+                        <li>Inscription : Permettre aux visiteurs de créer un compte.</li>
+                        <li>Gestion de Rapports : Création et consultation de rapports de visite par les visiteurs.
+                            Interface Utilisateur
+                        </li>
+                        <li>Navigation : Menus et liens pour une navigation fluide entre les différentes sections.</li>
+                    </ul>
+            <h4><strong>Environnement de travail</strong></h4>
+            <ul>
+                <li><strong>IDE:</strong> VS Code</li>
+                <li><strong>Serveur Web:</strong> Wampp 3.3.0</li>
+                <li><strong>PHP:</strong> 8.0.26</li>
+                <li><strong>MySQL:</strong> 8.0.31</li>
+                <li><strong>SGBD:</strong> PhpMyAdmin</li>
+            
+            </ul>
+
+            <h4><strong>Fonctionnalités | Cas d'utilisation</strong></h4>
+            <p>
+                <strong>Cas 1: Gérer les rapports de visites</strong><br>
+                <ol>
+                    <li><strong>Scénario classique</strong>
+                        <ol>
+                            <li>Le visiteur demande à créer un nouveau rapport de visite.</li>
+                            <li>Le système retourne un formulaire avec la liste des médecins et des champs de saisie.</li>
+                            <li>Le visiteur sélectionne un médecin à partir de son début de nom, sélectionne la date et remplit les différents champs, sélectionne les médicaments et les quantités offertes et valide.</li>
+                            <li>Le système enregistre le rapport.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Scénario étendu : modification d’un rapport</strong>
+                        <ol>
+                            <li>Le visiteur demande à modifier un rapport.</li>
+                            <li>Le système retourne un formulaire avec une date à sélectionner.</li>
+                            <li>Le visiteur sélectionne la date.</li>
+                            <li>Le système retourne les rapports que le visiteur a effectués à cette date.</li>
+                            <li>Le visiteur sélectionne un rapport de visite.</li>
+                            <li>Le système retourne les informations déjà saisies concernant le motif et le bilan.</li>
+                            <li>Le visiteur modifie les informations.</li>
+                            <li>Le système enregistre les modifications.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Scénario alternatif</strong>
+                        <ol>
+                            <li>Des champs ne sont pas remplis, le système en informe le visiteur, retour à 3.</li>
+                        </ol>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                <strong>Cas 2 : Gérer les médecins</strong><br>
+                <ol>
+                    <li><strong>Scénario classique</strong>
+                        <ol>
+                            <li>Le visiteur demande à voir les informations concernant un médecin.</li>
+                            <li>Le système retourne un formulaire avec un champ de recherche du médecin.</li>
+                            <li>Le visiteur sélectionne un médecin à partir de son début de nom et valide.</li>
+                            <li>Le système retourne les informations personnelles concernant ce médecin.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Scénario étendu</strong>
+                        <ol>
+                            <li>Le visiteur clique sur l’adresse de messagerie du médecin.</li>
+                            <li>Le système permet la rédaction et l’envoi d’un courriel.</li>
+                            <li>Le visiteur demande à voir tous les anciens rapports de visite concernant ce médecin.</li>
+                            <li>Le système retourne tous ses rapports.</li>
+                            <li>Le visiteur demande à modifier certains champs concernant des informations du médecin.</li>
+                            <li>Le système enregistre ces modifications.</li>
+                        </ol>
+                    </li>
+                </ol>
+            </p>
+
+            <h4><strong>Base de données</strong></h4>
+            <p>Diagramme de classe</p>
+            <img src="ressources/Projet_scolaire/DiagrammeClasseGSB1.png" alt="DiagrammeClasseGSB1">
+            <p>Schéma relationnel de données</p>
+            <img src="ressources/Projet_scolaire/Schéma_Relationnel_Données.png" alt="Schéma_Relationnel_Données">
+
+            <h4><a href="ressources/Projet_scolaire/maquetteGSB.pdf">Maquette Pencils</a></h4>
         </div>
+    </section>
+
+    
         <!-- GBS LOCATION APPARTEMENT -->
         <div>
             <h4>GSB - Location d'appartements</h4>

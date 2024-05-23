@@ -279,7 +279,7 @@ body {
 }
 
 /*DETAILS BTS*/
-.bts, .alternance {
+.bts, .alternance, .projets {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
